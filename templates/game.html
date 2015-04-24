@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mad Libs</title>
+</head>
+<body>
+    <h1>Are you ready to play?</h1>
+    <p>Fill out the following:</p>
+    <form action='/madlib'>
+        Adjective:<br>
+        <input type="radio" name="adjective" value="sleepy">Sleepy
+        <input type="radio" name="adjective" value="sneezy">Sneezy
+        <input type="radio" name="adjective" value="ogre-like">Ogre-like
+        <input type="radio" name="adjective" value="happy">Happy
+        <input type="radio" name="adjective" value="creative">Creative
+        <input type="radio" name="adjective" value="dorky">Dorky
+        <input type="radio" name="adjective" value="grumpy">Grumpy
+        <br>
+        Color:
+        <select name="color">
+            <option value="red">Red</option>
+            <option value="orange">Orange</option>
+            <option value="yellow">Yellow</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="indigo">Indigo</option>
+            <option value="violet">Violet</option>
+            <option value="black">Black</option>
+            <option value="white">White</option>
+            <option value="grey">Grey</option>
+        </select>
+        <br>
+        Person's Name: 
+        <input type="text" name="person">
+        <br>
+        Noun:
+        <input type="text" name="noun">
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
